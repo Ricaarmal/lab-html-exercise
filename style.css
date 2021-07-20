@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.navbar_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 25px 25px;
+}
+
+
+
+.rectangle_find {
+  background-color: rgba(0,0,0,.05);
+  width: 60%;
+  height: 40px;
+}
+
+.size_lupa{
+  width: 32px;
+  margin: 5px;
+}
+
+.npm_logo {
+  width: 100px;
+  height: 30px;
+}
+
+.two_buttons {
+  width: 200px;
+}
+
+.button_join {
+  margin: 10px 30px;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.button_login {
+  text-decoration: none;
+  color: black;
+}
+
+.planes {
+  height: 600px;
+  background-color: rgba(232,217,217,.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.planes > header {
+  display: flex;
+  align-content: center;
+}
+
+.planes > header > h2{
+  font-size: 60px;
+  align-content: center;
+}
+
+
+#content {
+  width: 500px;
+  text-align:justify;
+}
+
+.two_buttons_planes {
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#btn-red {
+  text-align: center;
+  padding: 15px 0 0 0;
+  height: 40px;
+  width: 200px;
+  color: white;
+  text-decoration: none;
+  background-color: #FB3B49;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+#btn-white {
+  padding: 15px 0 0 0;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.benefitsec {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefitsec img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.benefitsec header {
+  background-color: rgba(255,204,53,.4); 
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  height: 47px;
+  width: 700px;
+  text-align: center;
+}
+
+.benefitsec >header > h2 {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+
+.benefitsec article {
+  width: 500px;
+  text-align: justify;
+  margin: 25px 0 0 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.service-box {
+  font-size: 1em;
+  width: 40%;
+}
+
+.service-box h3 {
+  color: #ED1C24
+}
+
+.service-box img {
+  width: 50px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lastbutton {
+  margin: 10% 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#btn-last {
+    padding: 15px 0 0 0;
+    box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
